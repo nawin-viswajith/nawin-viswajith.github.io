@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Sparkles } from "lucide-react";
 import { profile, stats } from "@/lib/data";
+import { AnimatedNumber } from "@/components/ui/animated-number";
 
 const words = ["Agentic AI", "Enterprise RAG", "FastAPI", "Azure OpenAI"];
 
@@ -80,6 +81,15 @@ export function Hero() {
         </a>
       </motion.div>
 
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.55 }}
+        className="mt-3 text-xs text-muted"
+      >
+        Resume last updated July 2026
+      </motion.p>
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -89,7 +99,7 @@ export function Hero() {
         {stats.map((s) => (
           <div key={s.label} className="flex flex-col items-center gap-1">
             <span className="text-2xl font-semibold text-foreground sm:text-3xl">
-              {s.value}
+              <AnimatedNumber value={s.value} />
             </span>
             <span className="text-center text-xs text-muted">{s.label}</span>
           </div>

@@ -12,6 +12,8 @@ const links = [
   { href: "#contact", label: "Contact" },
 ];
 
+const isAvailable = process.env.NEXT_PUBLIC_AVAILABLE_FOR_HIRE === "true";
+
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -52,9 +54,14 @@ export function Nav() {
 
         <a
           href="#contact"
-          className="hidden md:inline-flex items-center rounded-full border border-border px-4 py-2 text-sm text-foreground hover:border-accent hover:text-accent transition-colors"
+          className={`hidden md:inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm transition-colors ${
+            isAvailable
+              ? "border-accent/40 bg-accent/10 text-accent hover:bg-accent/20"
+              : "border-border text-foreground hover:border-accent hover:text-accent"
+          }`}
         >
-          Let&apos;s talk
+          {isAvailable && <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />}
+          {isAvailable ? "Open to AI/ML Opportunities" : "Let's talk"}
         </a>
 
         <button
