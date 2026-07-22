@@ -78,7 +78,8 @@ export const projects = [
     name: "Trunk",
     subtitle: "On-Device AI & Multi-Agent Playground",
     description:
-      "A privacy-first Android application for fully offline, cloud-free LLM inference. Includes a visual, no-code Playground for chaining AI agents (drafter, refiner, formatter) into automated pipelines directly on mobile hardware.",
+      "Android application for fully offline LLM inference with a visual multi-agent Playground for building AI workflows directly on mobile devices.",
+    metric: "100% Offline",
     tags: ["Kotlin", "Android SDK", "Llama.cpp", "MLC LLM", "SQLite"],
     links: [
       { label: "Website", type: "website", href: "https://tuskerlabs-website.onrender.com/" },
@@ -90,7 +91,8 @@ export const projects = [
     name: "Multi-Agent Professional Assistant",
     subtitle: "LangGraph · Hackathon, Prodapt",
     description:
-      "A 7-agent LangGraph StateGraph pipeline (Router → Specialist → Humanizer) with dual RAG pipelines — all-MiniLM-L6-v2 at ~80ms for personal notes, Azure OpenAI embeddings for 59 policy PDFs — plus priority-based routing, per-user ChromaDB collections, LRU memory eviction, and a React frontend searching 1,500+ employee records.",
+      "7-agent LangGraph workflow with dual RAG pipelines, intelligent routing, long-term memory, and enterprise search for AI-powered workplace assistance.",
+    metric: "7 AI Agents",
     tags: ["Python", "FastAPI", "LangGraph", "LangChain", "Azure OpenAI", "ChromaDB", "React"],
     links: [],
     featured: true,
@@ -99,7 +101,8 @@ export const projects = [
     name: "Enterprise Agentic Text-to-SQL Platform",
     subtitle: "Reflection + MCP",
     description:
-      "A LangGraph Reflection workflow with schema-aware RAG (ChromaDB/MMR), automated RAGAS evaluation, strict SQL governance (SELECT-only, EXPLAIN pre-checks, auto-retry on schema mismatch), an MCP-compatible API surface, and a React dashboard with LangSmith telemetry.",
+      "Enterprise Agentic Text-to-SQL platform featuring schema-aware RAG, reflection-based query correction, SQL governance, MCP-compatible APIs, and LangSmith observability.",
+    metric: "530+ Enterprise Tables",
     tags: ["Python", "FastAPI", "LangGraph", "Azure OpenAI", "ChromaDB", "Sentence-Transformers", "React"],
     links: [{ label: "GitHub", type: "github", href: "https://github.com/nawin-viswajith/Text-to-SQL-AI-Platform" }],
     featured: true,

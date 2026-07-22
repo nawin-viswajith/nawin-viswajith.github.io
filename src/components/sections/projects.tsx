@@ -29,6 +29,11 @@ export function Projects() {
               <div>
                 <h3 className="text-xl font-semibold text-foreground">{p.name}</h3>
                 <p className="mt-0.5 font-mono text-xs text-accent-2">{p.subtitle}</p>
+                {p.metric && (
+                  <span className="mt-2 inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+                    {p.metric}
+                  </span>
+                )}
               </div>
               {p.links.length > 0 && (
                 <div className="flex shrink-0 gap-2">
