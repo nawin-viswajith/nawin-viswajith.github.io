@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { BrandMark } from "@/components/brand-mark";
+import { profile } from "@/lib/data";
 
 const links = [
   { href: "#about", label: "About" },
@@ -52,6 +53,16 @@ export function Nav() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href={profile.resumeUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm text-muted hover:text-foreground transition-colors"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <a
@@ -96,6 +107,17 @@ export function Nav() {
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href={profile.resumeUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={() => setOpen(false)}
+                  className="text-base text-muted hover:text-foreground transition-colors"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </motion.div>
         )}

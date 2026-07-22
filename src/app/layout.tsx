@@ -15,14 +15,14 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nawin Viswajith B — AI & Machine Learning Engineer",
+  title: "Nawin Viswajith B, AI & Machine Learning Engineer",
   description:
-    "Portfolio of Nawin Viswajith B — AI & Machine Learning Engineer building production Generative AI systems, multi-agent orchestration, and RAG pipelines.",
+    "Portfolio of Nawin Viswajith B, AI & Machine Learning Engineer building production Generative AI systems, multi-agent orchestration, and RAG pipelines.",
   metadataBase: new URL("https://nawin-viswajith.github.io"),
   openGraph: {
-    title: "Nawin Viswajith B — AI & Machine Learning Engineer",
+    title: "Nawin Viswajith B, AI & Machine Learning Engineer",
     description:
-      "Portfolio of Nawin Viswajith B — AI & Machine Learning Engineer building production Generative AI systems, multi-agent orchestration, and RAG pipelines.",
+      "Portfolio of Nawin Viswajith B, AI & Machine Learning Engineer building production Generative AI systems, multi-agent orchestration, and RAG pipelines.",
     type: "website",
   },
 };

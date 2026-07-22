@@ -4,7 +4,7 @@ import { Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
 import { motion } from "framer-motion";
 import { profile } from "@/lib/data";
-import { ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowUpRight, Download, Github, Linkedin, Mail } from "lucide-react";
 
 export function Contact() {
   return (
@@ -33,6 +33,15 @@ export function Contact() {
               >
                 <Mail size={16} />
                 {profile.email}
+              </a>
+              <a
+                href={profile.resumeUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
+              >
+                <Download size={16} />
+                Resume
               </a>
             </div>
 
