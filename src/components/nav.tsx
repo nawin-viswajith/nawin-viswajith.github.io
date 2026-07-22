@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { BrandMark } from "@/components/brand-mark";
 
 const links = [
   { href: "#about", label: "About" },
@@ -35,7 +36,8 @@ export function Nav() {
       }`}
     >
       <nav className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
-        <a href="#top" className="font-mono text-sm tracking-tight text-foreground">
+        <a href="#top" className="flex items-center gap-2 font-mono text-sm tracking-tight text-foreground">
+          <BrandMark size={20} className="text-accent" />
           nawin<span className="text-accent">.</span>dev
         </a>
 
