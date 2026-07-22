@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Sparkles } from "lucide-react";
 import { profile, stats } from "@/lib/data";
 
-const words = ["Multi-agent orchestration.", "RAG at production scale.", "LLM systems that ship."];
+const words = ["Agentic AI", "Enterprise RAG", "FastAPI", "Azure OpenAI"];
 
 export function Hero() {
   return (

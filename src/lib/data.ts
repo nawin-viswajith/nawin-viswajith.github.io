@@ -1,7 +1,7 @@
 export const profile = {
   name: "Nawin Viswajith B",
   role: "AI & Machine Learning Engineer",
-  tagline: "Building production Generative AI systems — multi-agent orchestration, RAG pipelines, and LLM infrastructure that ships.",
+  tagline: "Building enterprise Generative AI systems with multi-agent orchestration, RAG, FastAPI, and scalable LLM infrastructure.",
   location: "Chennai, India",
   email: "nawinviswajith@gmail.com",
   phone: "+91 86083 43975",
@@ -12,9 +12,9 @@ export const profile = {
 
 export const stats = [
   { label: "Production AI systems delivered", value: "5+" },
-  { label: "RAGAS quality score", value: "92.1%" },
+  { label: "RAGAS", value: "92.1%" },
   { label: "Vector DB memory reduction", value: "94.4%" },
-  { label: "Granted patent", value: "1" },
+  { label: "Patent", value: "1" },
 ];
 
 export const about = {
