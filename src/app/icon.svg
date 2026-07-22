@@ -1,20 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7c5cff"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-  </defs>
-  <rect width="32" height="32" rx="8" fill="url(#g)"/>
-  <text
-    x="16"
-    y="17"
-    text-anchor="middle"
-    dominant-baseline="central"
-    font-family="Arial, Helvetica, sans-serif"
-    font-weight="700"
-    font-size="13.5"
-    letter-spacing="-0.5"
-    fill="#ffffff"
-  >NV</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path
+    d="M16 52V12L48 52V12"
+    fill="none"
+    stroke="#7C5CFF"
+    stroke-width="6"
+    stroke-linecap="butt"
+    stroke-linejoin="miter"/>
 </svg>
