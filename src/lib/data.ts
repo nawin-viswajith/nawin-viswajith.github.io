@@ -19,9 +19,9 @@ export const stats = [
 
 export const about = {
   summary: [
-    "I'm an AI & Machine Learning Engineer at Prodapt, building enterprise Generative AI systems for real-world production use. My work spans multi-agent orchestration, Retrieval-Augmented Generation (RAG), document intelligence, and privacy-first local LLM platforms serving enterprise data at scale.",
+    "I'm an AI & Machine Learning Engineer at Prodapt, building enterprise Generative AI systems for real-world production use. My work spans multi-agent orchestration, Retrieval-Augmented Generation (RAG), document intelligence and local LLM platforms serving enterprise data at scale.",
     "I specialize in FastAPI microservices, LangGraph agent orchestration, vector databases, LLM evaluation, and the backend infrastructure that makes AI systems reliable, scalable, and production-ready.",
-    "Outside of work, I'm building Trunk, an Android application for fully offline LLM inference, while exploring on-device AI deployment. I also hold a granted patent and have authored two peer-reviewed publications.",
+    "Outside of work, I'm building Trunk, an Android application for fully offline LLM inference, while exploring on-device AI deployment and mobile AI infrastructure. I also hold a granted patent and have authored two peer-reviewed publications.",
   ],
   highlights: [
     {
@@ -34,7 +34,7 @@ export const about = {
     },
     {
       title: "Full-stack AI",
-      description: "Building AI end-to-end: FastAPI backends, LangGraph agents, vector databases, and modern React frontends.",
+      description: "Building AI end-to-end: FastAPI backends, LangGraph agents, vector databases, and React frontends that power enterprise AI applications.",
     },
   ],
 };
@@ -46,12 +46,10 @@ export const experience = [
     period: "Nov 2025 – Present",
     location: "Chennai, India",
     points: [
-      "Designed and deployed 5 FastAPI microservices within a 20+ microservice enterprise AI platform using Azure OpenAI, powering multi-agent assessment, candidate reporting, AST parsing, document chunking, and image guardrails.",
-      "Reduced per-question cost to $0.0042 and achieved an 89.5% RAGAS quality score across a 1,000-question LLM-as-judge evaluation.",
-      "Cut vector database RAM usage by 94.4% (9.22 GB → 508.9 MB) via LRU-partitioned ChromaDB sharding — awarded Rising Rookie of the Month.",
-      "Architecting a privacy-first, local-LLM-driven Enterprise AI Data Gateway over 17 schemas and 530+ tables, with multi-agent correction loops for SQL/PowerBI DAX generation, RBAC, and a metadata-filtered knowledge graph.",
-      "Built a dual-agent Document Intelligence pipeline with sub-ms SharePoint search (Path Trie + Trigram Index), a 5-tier skill-matching cascade, and 3-layer PII detection (Presidio ML + regex) achieving >98% success via LLM fallback chains.",
-      "Architecting an end-to-end employee attrition prediction system (scikit-learn) with dual-model routing and a temporal feature store across 25+ domain tables plus macroeconomic signals.",
+      "Designed and deployed 5 FastAPI microservices within a 20+ microservice enterprise AI platform using Azure OpenAI, cutting per-question cost to $0.0042, achieving an 89.5% RAGAS quality score, and reducing vector database RAM usage by 94.4%, earning Rising Rookie of the Month.",
+      "Architecting an Enterprise AI Data Gateway spanning 17 schemas and 530+ tables, featuring Agentic Text-to-SQL, Power BI DAX generation, RBAC, semantic caching, and Knowledge Graph retrieval.",
+      "Built a dual-agent Document Intelligence pipeline with enterprise-wide SharePoint search, intelligent skill matching, and multi-layer PII detection achieving over 98% success.",
+      "Building an enterprise employee attrition prediction platform with dual-model routing and a temporal feature store across 25+ domain tables plus macroeconomic signals.",
     ],
   },
   {
@@ -60,7 +58,7 @@ export const experience = [
     period: "Jul 2025 – Nov 2025",
     location: "Chennai, India",
     points: [
-      "Completed full-stack AI development training across Python, FastAPI, React, MySQL, and SQLAlchemy.",
+      "Developed enterprise AI applications using Python, FastAPI, React, MySQL, and SQLAlchemy as part of Prodapt's graduate engineering program.",
       "Built an AI-powered network tower load monitoring system and an end-to-end RFM-based dynamic dunning platform to optimize revenue recovery.",
     ],
   },
@@ -70,8 +68,7 @@ export const experience = [
     period: "May 2023 – Jul 2023",
     location: "Chennai, India",
     points: [
-      "Selected among 100 students nationwide for the Ministry of Defence i4D internship programme.",
-      "Developed real-time computer vision solutions (CNN, YOLO) for PPE-wear detection, PCB fault detection, and body-movement tracking for VR safety training.",
+      "Selected among 100 students nationwide for the Ministry of Defence i4D programme, developing CNN and YOLO-based computer vision solutions for PPE detection, PCB defect detection, and VR safety training.",
     ],
   },
 ];

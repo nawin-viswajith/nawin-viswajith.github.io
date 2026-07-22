@@ -4,6 +4,7 @@ import { Section } from "@/components/ui/section";
 import { Reveal } from "@/components/ui/reveal";
 import { motion } from "framer-motion";
 import { experience } from "@/lib/data";
+import { highlightNumbers } from "@/lib/highlight-numbers";
 
 export function Experience() {
   return (
@@ -37,7 +38,7 @@ export function Experience() {
                   {job.points.map((point, j) => (
                     <li key={j} className="flex gap-3 text-sm leading-relaxed text-muted">
                       <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-accent" />
-                      <span>{point}</span>
+                      <span>{highlightNumbers(point)}</span>
                     </li>
                   ))}
                 </ul>
