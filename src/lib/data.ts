@@ -46,7 +46,7 @@ export const experience = [
     period: "Nov 2025 – Present",
     location: "Chennai, India",
     points: [
-      "Designed and deployed 5 core FastAPI microservices integrated with Azure OpenAI within a 20+ microservice enterprise AI assessment platform — multi-agent question generation, candidate reporting, AST code parsing, bulk chunking, and image guardrails.",
+      "Designed and deployed 5 FastAPI microservices within a 20+ microservice enterprise AI platform using Azure OpenAI, powering multi-agent assessment, candidate reporting, AST parsing, document chunking, and image guardrails.",
       "Reduced per-question cost to $0.0042 and achieved an 89.5% RAGAS quality score across a 1,000-question LLM-as-judge evaluation.",
       "Cut vector database RAM usage by 94.4% (9.22 GB → 508.9 MB) via LRU-partitioned ChromaDB sharding — awarded Rising Rookie of the Month.",
       "Architecting a privacy-first, local-LLM-driven Enterprise AI Data Gateway over 17 schemas and 530+ tables, with multi-agent correction loops for SQL/PowerBI DAX generation, RBAC, and a metadata-filtered knowledge graph.",
