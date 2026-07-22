@@ -31,7 +31,7 @@ export function Hero() {
         Hi, I&apos;m {profile.name.split(" ")[0]}
         <span className="text-accent">.</span>
         <br />
-        <span className="text-gradient">I build AI that works in production.</span>
+        <span className="text-gradient">I build enterprise AI that works in production.</span>
       </motion.h1>
 
       <motion.p

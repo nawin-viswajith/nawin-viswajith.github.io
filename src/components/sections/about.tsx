@@ -23,7 +23,7 @@ export function About() {
               <div>
                 <p className="text-sm font-medium text-foreground">{education.degree}</p>
                 <p className="text-sm text-muted">
-                  {education.school} · {education.period} · {education.gpa}
+                  {education.school} · {education.gpa}
                 </p>
               </div>
             </div>

@@ -19,22 +19,22 @@ export const stats = [
 
 export const about = {
   summary: [
-    "I'm an AI & Machine Learning Engineer at Prodapt, where I design and ship production Generative AI systems — from multi-agent question generation engines to privacy-first, local-LLM-driven data platforms spanning hundreds of database tables.",
-    "My work sits at the intersection of LLM orchestration, retrieval-augmented generation, and backend engineering: FastAPI microservices, vector databases, evaluation pipelines, and the unglamorous plumbing that makes agentic systems reliable in production, not just in a notebook.",
-    "Outside of work, I build Trunk, an on-device AI Android app for fully offline, privacy-first LLM inference — and I hold a granted patent in VR-based flight training alongside two peer-reviewed publications.",
+    "I'm an AI & Machine Learning Engineer at Prodapt, building enterprise Generative AI systems for real-world production use. My work spans multi-agent orchestration, Retrieval-Augmented Generation (RAG), document intelligence, and privacy-first local LLM platforms serving enterprise data at scale.",
+    "I specialize in FastAPI microservices, LangGraph agent orchestration, vector databases, LLM evaluation, and the backend infrastructure that makes AI systems reliable, scalable, and production-ready.",
+    "Outside of work, I'm building Trunk, an Android application for fully offline LLM inference, while exploring on-device AI deployment. I also hold a granted patent and have authored two peer-reviewed publications.",
   ],
   highlights: [
     {
-      title: "Backed by research",
+      title: "Research & Innovation",
       description: "A granted patent (VR-powered flight training) and two peer-reviewed journal publications on VR training systems and autonomous collision avoidance.",
     },
     {
       title: "Production-first mindset",
-      description: "5+ AI systems shipped at Prodapt with measurable outcomes: 92.1% RAGAS quality, 94.4% vector DB memory reduction, sub-cent per-question costs.",
+      description: "5+ AI systems shipped at Prodapt with production outcomes: 92.1% RAGAS quality, 94.4% vector DB memory reduction, sub-cent per-question costs.",
     },
     {
       title: "Full-stack AI",
-      description: "Comfortable across the whole stack — Python/FastAPI backends, LangGraph agent orchestration, vector stores, and the React frontends that consume them.",
+      description: "Building AI end-to-end: FastAPI backends, LangGraph agents, vector databases, and modern React frontends.",
     },
   ],
 };
