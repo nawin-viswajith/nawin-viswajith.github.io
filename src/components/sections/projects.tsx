@@ -4,7 +4,12 @@ import { Section } from "@/components/ui/section";
 import { RevealGroup, revealItem } from "@/components/ui/reveal";
 import { motion } from "framer-motion";
 import { projects } from "@/lib/data";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Github, Globe } from "lucide-react";
+
+const linkIcon = {
+  website: Globe,
+  github: Github,
+};
 
 export function Projects() {
   return (
@@ -27,18 +32,22 @@ export function Projects() {
               </div>
               {p.links.length > 0 && (
                 <div className="flex shrink-0 gap-2">
-                  {p.links.map((link) => (
-                    <a
-                      key={link.label}
-                      href={link.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="rounded-full border border-border p-2 text-muted transition-colors hover:border-accent hover:text-accent"
-                      aria-label={link.label}
-                    >
-                      <ArrowUpRight size={16} />
-                    </a>
-                  ))}
+                  {p.links.map((link) => {
+                    const Icon = linkIcon[link.type as keyof typeof linkIcon] ?? ArrowUpRight;
+                    return (
+                      <a
+                        key={link.label}
+                        href={link.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        title={link.label}
+                        className="rounded-full border border-border p-2 text-muted transition-colors hover:border-accent hover:text-accent"
+                        aria-label={link.label}
+                      >
+                        <Icon size={16} />
+                      </a>
+                    );
+                  })}
                 </div>
               )}
             </div>

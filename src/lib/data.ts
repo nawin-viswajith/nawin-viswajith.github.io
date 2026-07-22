@@ -84,8 +84,8 @@ export const projects = [
       "A privacy-first Android application for fully offline, cloud-free LLM inference. Includes a visual, no-code Playground for chaining AI agents (drafter, refiner, formatter) into automated pipelines directly on mobile hardware.",
     tags: ["Kotlin", "Android SDK", "Llama.cpp", "MLC LLM", "SQLite"],
     links: [
-      { label: "Website", href: "#" },
-      { label: "GitHub", href: "#" },
+      { label: "Website", type: "website", href: "https://tuskerlabs-website.onrender.com/" },
+      { label: "GitHub", type: "github", href: "https://github.com/nawin-viswajith/trunk-android" },
     ],
     featured: true,
   },
@@ -104,7 +104,7 @@ export const projects = [
     description:
       "A LangGraph Reflection workflow with schema-aware RAG (ChromaDB/MMR), automated RAGAS evaluation, strict SQL governance (SELECT-only, EXPLAIN pre-checks, auto-retry on schema mismatch), an MCP-compatible API surface, and a React dashboard with LangSmith telemetry.",
     tags: ["Python", "FastAPI", "LangGraph", "Azure OpenAI", "ChromaDB", "Sentence-Transformers", "React"],
-    links: [{ label: "GitHub", href: "#" }],
+    links: [{ label: "GitHub", type: "github", href: "https://github.com/nawin-viswajith/Text-to-SQL-AI-Platform" }],
     featured: true,
   },
 ];
