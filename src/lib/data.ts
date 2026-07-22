@@ -112,27 +112,27 @@ export const projects = [
 export const skills = [
   {
     category: "Generative AI & LLMs",
-    items: ["LangGraph", "LangChain", "DSPy", "RAG", "RAGAS", "Agentic Workflows", "Multi-Agent Systems", "LLM-as-a-judge", "Prompt Engineering", "HuggingFace", "Vector Embeddings", "Azure OpenAI", "Google Gemini", "Guardrails", "LLMOps"],
+    items: ["LangGraph", "RAG", "Agentic Workflows", "Multi-Agent Systems", "Azure OpenAI", "DSPy", "RAGAS", "LLMOps", "LangChain", "Guardrails", "Vector Embeddings", "Google Gemini", "LLM-as-a-judge", "Prompt Engineering", "HuggingFace"],
   },
   {
-    category: "Languages & Core ML",
+    category: "Programming & ML",
     items: ["Python", "SQL", "NumPy", "Pandas", "scikit-learn", "PyTorch"],
   },
   {
-    category: "Backend & Cloud",
-    items: ["FastAPI", "REST APIs", "Azure Cloud Services", "SQLAlchemy", "Redis", "Postman"],
+    category: "Backend Engineering",
+    items: ["FastAPI", "REST APIs", "Azure Cloud Services", "SQLAlchemy", "Redis", "Postman", "Tree-Sitter"],
   },
   {
     category: "Databases & Vector Stores",
     items: ["MySQL", "SQLite", "ChromaDB", "FAISS"],
   },
   {
-    category: "DevOps & Security",
-    items: ["Git", "Azure", "ECDH-P256", "AES-256-GCM", "Presidio (PII)"],
+    category: "Infrastructure & Security",
+    items: ["Git", "Azure", "Presidio (PII)"],
   },
   {
-    category: "Computer Vision & Tools",
-    items: ["OpenCV", "Tree-Sitter", "Tesseract OCR", "EasyOCR", "CLIP", "MediaPipe"],
+    category: "Computer Vision",
+    items: ["OpenCV", "Tesseract OCR", "EasyOCR", "CLIP", "MediaPipe"],
   },
 ];
 
@@ -140,17 +140,17 @@ export const publications = [
   {
     type: "Patent",
     title: "Virtual Reality Powered Flight Training",
-    meta: "Application No. 202441083983 A · Nov 2024",
+    meta: "Granted Indian Patent · Nov 2024",
   },
   {
     type: "Journal",
     title: "Flight Procedure Trainer using VR",
-    meta: "TIJER · May 2024",
+    meta: "Peer-reviewed Journal · May 2024",
   },
   {
     type: "Journal",
     title: "AI Based Collision Avoidance System for Unmanned Vessels",
-    meta: "TIJER · Jun 2023",
+    meta: "Peer-reviewed Journal · Jun 2023",
   },
 ];
 
@@ -164,6 +164,11 @@ export const honours = [
     title: "iDEX – Innovate4Defence",
     org: "Ministry of Defence",
     description: "Selected among 100 students nationwide for the iDEX i4D internship programme.",
+  },
+  {
+    title: "Oracle OCI 2025 Certifications",
+    org: "Oracle",
+    description: "Generative AI Professional, AI Vector Search, and Data Science Professional certifications.",
   },
   {
     title: "Top OnePlus Beta Tester",

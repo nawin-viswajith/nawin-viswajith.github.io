@@ -22,8 +22,9 @@ export function Contact() {
               Let&apos;s build something <span className="text-gradient">intelligent.</span>
             </h3>
             <p className="mx-auto mt-4 max-w-xl text-muted">
-              Open to interesting conversations about AI systems, collaborations, or just
-              talking shop about multi-agent architectures. Reach out.
+              Open to interesting conversations about AI systems, collaborations, or
+              discussing enterprise AI, agentic systems, or building production-ready LLM
+              applications. Reach out.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
