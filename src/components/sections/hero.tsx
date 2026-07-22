@@ -22,7 +22,7 @@ export function Hero() {
         <Sparkles size={13} className="text-accent" />
         AI & Machine Learning Engineer @ Prodapt
         <span className="h-1 w-1 rounded-full bg-border" />
-        {profile.location} · Open to Relocation
+        {profile.location} · Open to International Relocation
       </motion.div>
 
       <motion.h1

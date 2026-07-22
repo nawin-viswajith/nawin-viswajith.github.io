@@ -22,8 +22,8 @@ export function Contact() {
               Let&apos;s build something <span className="text-gradient">intelligent.</span>
             </h3>
             <p className="mx-auto mt-4 max-w-xl text-muted">
-              Open to AI engineering opportunities, collaborations, and relocation
-              opportunities worldwide.
+              Open to AI engineering opportunities, collaborations, and international
+              relocation.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
