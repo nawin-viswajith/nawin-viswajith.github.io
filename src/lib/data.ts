@@ -88,16 +88,6 @@ export const projects = [
     featured: true,
   },
   {
-    name: "Multi-Agent Professional Assistant",
-    subtitle: "LangGraph · Hackathon, Prodapt",
-    description:
-      "7-agent LangGraph workflow with dual RAG pipelines, intelligent routing, long-term memory, and enterprise search for AI-powered workplace assistance.",
-    metric: "7 AI Agents",
-    tags: ["Python", "FastAPI", "LangGraph", "LangChain", "Azure OpenAI", "ChromaDB", "React"],
-    links: [],
-    featured: true,
-  },
-  {
     name: "Enterprise Agentic Text-to-SQL Platform",
     subtitle: "Reflection + MCP",
     description:
@@ -105,6 +95,16 @@ export const projects = [
     metric: "530+ Enterprise Tables",
     tags: ["Python", "FastAPI", "LangGraph", "Azure OpenAI", "ChromaDB", "Sentence-Transformers", "React"],
     links: [{ label: "GitHub", type: "github", href: "https://github.com/nawin-viswajith/Text-to-SQL-AI-Platform" }],
+    featured: true,
+  },
+  {
+    name: "BridgeSense",
+    subtitle: "Accessibility · Sign Language AI",
+    description:
+      "Platform bridging communication for the deaf community: converts audio and video into sign language through 3D avatars, plus an interactive library for learning ASL and ISL finger-spelling.",
+    metric: "3D Sign Avatars",
+    tags: ["Python", "Flask", "Computer Vision", "Speech-to-Text", "3D VRM"],
+    links: [{ label: "GitHub", type: "github", href: "https://github.com/nawin-viswajith/BridgeSense" }],
     featured: true,
   },
 ];
