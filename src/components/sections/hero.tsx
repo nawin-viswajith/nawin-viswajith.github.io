@@ -31,7 +31,7 @@ export function Hero() {
         transition={{ duration: 0.7, delay: 0.1 }}
         className="max-w-4xl text-4xl font-semibold tracking-tight sm:text-6xl md:text-7xl"
       >
-        Hi, I&apos;m {profile.name.split(" ")[0]}
+        I&apos;m {profile.name.split(" ")[0]}
         <span className="text-accent">.</span>
         <br />
         <span className="text-gradient">I build enterprise AI that works in production.</span>
@@ -89,7 +89,7 @@ export function Hero() {
         transition={{ duration: 0.6, delay: 0.55 }}
         className="mt-3 text-xs text-muted"
       >
-        Resume last updated July 2026
+        Resume · Updated July 2026
       </motion.p>
 
       <motion.div
